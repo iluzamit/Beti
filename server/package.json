@@ -1,0 +1,36 @@
+{
+  "name": "beti-server",
+  "version": "1.0.0",
+  "main": "dist/main",
+  "scripts": {
+    "build": "webpack --config webpack.prod.js",
+    "dev": "webpack --watch --config webpack.dev.js"
+  },
+  "author": "Amit Iluz",
+  "license": "ISC",
+  "dependencies": {
+    "argparse": "^1.0.10",
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.4",
+    "errorhandler": "^1.5.0",
+    "express": "^4.16.4",
+    "express-session": "^1.16.1"
+  },
+  "devDependencies": {
+    "@types/argparse": "^1.0.36",
+    "@types/axios": "^0.14.0",
+    "@types/express": "^4.16.1",
+    "@types/node": "^10.12.18",
+    "compression-webpack-plugin": "^2.0.0",
+    "cookie-parser": "^1.4.4",
+    "inline-source-map": "^0.6.2",
+    "node": "^10.15.3",
+    "ts-loader": "^5.3.3",
+    "typescript": "^3.4.2",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.0",
+    "webpack-merge": "^4.2.1",
+    "webpack-node-externals": "^1.7.2"
+  }
+}
